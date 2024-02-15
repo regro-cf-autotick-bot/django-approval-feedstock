@@ -1,5 +1,5 @@
 {% set name = "django-approval" %}
-{% set version = "0.12.0" %}
+{% set version = "0.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-approval-{{ version }}.tar.gz
-  sha256: 7b15074ed9d16039cd2f99fd87d4301ba8a9a67fdfebca342845af7494af76da
+  sha256: 92bc352206c1761152eb3f20cff462f1cf4ad927b1d5949df7643c895bee8a7c
 
 build:
   noarch: python
